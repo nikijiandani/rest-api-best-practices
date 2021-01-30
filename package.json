@@ -1,0 +1,24 @@
+{
+  "name": "rest-api-best-practices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikijiandani/rest-api-best-practices.git"
+  },
+  "author": "Nikita Jiandani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikijiandani/rest-api-best-practices/issues"
+  },
+  "homepage": "https://github.com/nikijiandani/rest-api-best-practices#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
