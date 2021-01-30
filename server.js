@@ -1,7 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-
+const apicache = require('apicache');
 const app = express();
+
+// apicache config
+let cache = apicache.middleware;
+app.use(cache('5 minutes'));
 
 // employees data in a database
 const employees = [
